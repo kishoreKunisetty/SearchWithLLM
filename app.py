@@ -22,6 +22,9 @@ os.environ["GOOGLE_CSE_ID"] = os.getenv('GOOGLE_CSE_ID')
 os.environ["GOOGLE_API_KEY"] = os.getenv('GOOGLE_API_KEY')
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv('HUGGINGFACEHUB_API_TOKEN')
 
+# with st.sidebar as sb:
+#     os.environ["GOOGLE_CSE_ID"] = st.text_input(type="password", label="CSE_ID")
+
 search = GoogleSearchAPIWrapper()
 Documents = []
 article_links = []
